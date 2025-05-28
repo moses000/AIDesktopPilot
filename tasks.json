@@ -1,0 +1,18 @@
+[
+    {
+        "action": "open",
+        "app": "notepad.exe"
+    },
+    {
+        "action": "type",
+        "value": "Hello from AI Desktop Pilot!"
+    },
+    {
+        "action": "screenshot",
+        "prefix": "task"
+    },
+    {
+        "action": "click_button",
+        "template": "button_template.png"
+    }
+]
