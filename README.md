@@ -51,14 +51,14 @@ AIDesktopMentor/
 ```mermaid
 graph TD
     A[User Input] --> B[GUI Tkinter]
-    A --> C[Voice Listener (Vosk)]
-    C --> D[NLP Parser (DistilBERT)]
+    A --> C[Voice Listener Vosk]
+    C --> D[NLP Parser DistilBERT]
     D --> E[Command Processor]
     B --> E
-    E --> F[Automation Engine (PyAutoGUI)]
-    E --> G[UI Detection (YOLOv8)]
+    E --> F[Automation Engine PyAutoGUI]
+    E --> G[UI Detection YOLOv8]
     E --> H[Screenshot Module]
-    E --> I[OCR (Pytesseract)]
+    E --> I[OCR Pytesseract]
     E --> J[Check Popups]
     F --> K[OS Interaction]
     H --> L[Save to screenshots/]
