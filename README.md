@@ -50,7 +50,7 @@ AIDesktopMentor/
 
 ```mermaid
 graph TD
-    A[User Input] --> B[GUI (Tkinter)]
+    A[User Input] --> B[GUI Tkinter]
     A --> C[Voice Listener (Vosk)]
     C --> D[NLP Parser (DistilBERT)]
     D --> E[Command Processor]
