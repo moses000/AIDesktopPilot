@@ -17,7 +17,7 @@ AI Desktop Mentor is an advanced Python-based desktop automation tool designed t
 
 ---
 
-## 📁 Directory Structure
+## 📁 Directory Structure    
 
 ```
 
@@ -50,23 +50,21 @@ AIDesktopMentor/
 
 ```mermaid
 graph TD
-    A[User Input] -->|GUI Button| B[GUI (Tkinter)]
-    A -->|Voice Command| C[Voice Listener (Vosk)]
+    A[User Input] --> B[GUI (Tkinter)]
+    A --> C[Voice Listener (Vosk)]
     C --> D[NLP Parser (DistilBERT)]
     D --> E[Command Processor]
     B --> E
-    E -->|Open App| F[Automation Engine (PyAutoGUI)]
-    E -->|Navigate URL| F
-    E -->|Login| G[UI Detection (YOLOv8)]
-    G --> F
-    E -->|Screenshot| H[Screenshot Module]
-    E -->|Read Text| I[OCR (Pytesseract)]
-    E -->|Check Popups| I
-    F --> J[OS Interaction]
-    H --> K[Save to screenshots/]
-    I --> L[Context Feedback]
-    J --> M[Screen Output]
-    L --> M
+    E --> F[Automation Engine (PyAutoGUI)]
+    E --> G[UI Detection (YOLOv8)]
+    E --> H[Screenshot Module]
+    E --> I[OCR (Pytesseract)]
+    E --> J[Check Popups]
+    F --> K[OS Interaction]
+    H --> L[Save to screenshots/]
+    I --> M[Context Feedback]
+    K --> N[Screen Output]
+    M --> N
 ```
 
 ## 📊 Business Workflow
