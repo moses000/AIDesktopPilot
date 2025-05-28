@@ -55,7 +55,7 @@ Microphone for voice control.
 
 Installation
 
-Clone the repository:git clone https://github.com/yourusername/AIDesktopPilot.git
+Clone the repository:git clone https://github.com/moses000/AIDesktopPilot.git
 cd AIDesktopPilot
 
 
@@ -163,4 +163,4 @@ MIT License
 Contributing
 Open issues or pull requests on GitHub.
 Contact
-Create a GitHub issue or email [your email]
+Create a GitHub issue or email [im.imoleayomoses@gmail.com]
