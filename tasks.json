@@ -1,18 +1,18 @@
 [
     {
         "action": "open",
-        "app": "notepad.exe"
+        "app": "chrome"
     },
     {
-        "action": "type",
-        "value": "Hello from AI Desktop Pilot!"
+        "action": "navigate",
+        "url": "https://example.com"
+    },
+    {
+        "action": "login",
+        "url": "https://example.com"
     },
     {
         "action": "screenshot",
-        "prefix": "task"
-    },
-    {
-        "action": "click_button",
-        "template": "button_template.png"
+        "prefix": "login_task"
     }
 ]
